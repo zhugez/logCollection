@@ -1,0 +1,7 @@
+version: '3.10'
+services:
+  app:
+    image: collectapp
+    ports: 
+    - "80:80"
+    restart: unless-stopped
